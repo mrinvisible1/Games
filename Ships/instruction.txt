@@ -1,0 +1,30 @@
+
+---------SHIPS-----------
+This is a game of sinking ships.
+
+Each player has 4 types of ships:
+TANKER-1 piece, takes 4 fields
+BIG-2 pieces, each takes 3 fiels
+MEDIUM-3 pieces, each takes 2 fields
+SMALL-4 pieces, each takes 1 fields
+
+Game object is to sink all of enemy ships.
+
+MAP LEGEND:
+SHIPS:
+	T-TANKER
+	B-BIG
+	M-MEDIUM
+	S-SMALL
+FIELD:
+	X-targeted field, hit ship
+	O-targeted field, missed ship
+	- has not yet been targeted
+	
+GAME FLOW
+Game starts by enetering ships. Player one is first to enter, then player two
+After entering, targeting phase begins.
+Player one is first to target.
+If Player misses enemy ship, other player takes turn.
+If Player hits enemy ship, he targets ones more, until he misses or until he wins.
+Game is finished when someone has destroyed all of enemy ships.
